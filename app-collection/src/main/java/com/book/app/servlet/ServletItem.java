@@ -111,24 +111,24 @@ public class ServletItem extends HttpServlet {
 	        		+ "<th>Eliminar</th>"
 	        		+ "</tr>");      
 	        
-	      for (Collection item : list) {
-		        out.println("<tr>"); 
-		         out.println("<td> " +item.getId() +" </td>"); 
-		         out.println("<td> "+title+" </td>"); 
-		         out.println("<td> "+author+" </td>");
-		         out.println("<td> "+description+" </td>"); 
-		         out.println("<td> <a href=../servlet/edit?option=show&itemId="
-		         		 +      item.getId() + ">Editar</a>"
-		        		 +     "</td>"); 
-		         out.println("<td> <a href=../servlet/book?option=delete&itemId="
-		         		 +      item.getId() + ">Eliminar</a>"
-		        		 +     "</td>"); 
-		         
-		         
-		         
-		         
-		        out.println("</tr> "); 
-	        }
+//	      for (Collection item : list) {
+//		        out.println("<tr>"); 
+//		         out.println("<td> " +item.getId() +" </td>"); 
+//		         out.println("<td> "+title+" </td>"); 
+//		         out.println("<td> "+author+" </td>");
+//		         out.println("<td> "+description+" </td>"); 
+//		         out.println("<td> <a href=../servlet/edit?option=show&itemId="
+//		         		 +      item.getId() + ">Editar</a>"
+//		        		 +     "</td>"); 
+//		         out.println("<td> <a href=../servlet/book?option=delete&itemId="
+//		         		 +      item.getId() + ">Eliminar</a>"
+//		        		 +     "</td>"); 
+//		         
+//		         
+//		         
+//		         
+//		        out.println("</tr> "); 
+//	        }
 	        out.println("</table>"); 
 	        
 	        out.println("<p>");    
